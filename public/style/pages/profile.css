@@ -1,0 +1,36 @@
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.profile-img{
+    width:15%;
+}
+.profile-img img{
+    width:100%;
+}
+.profile-info{
+    width:80%;
+}
+.profile-info p{
+    margin-bottom: 20px;;
+}
+.profile-info p span{
+    font-weight: 600;
+}
+.profile-info button{
+    padding:7px 20px;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color:#fff;
+}
+.profile-info>button:nth-child(3){
+    background: linear-gradient(90deg,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
+}
+.profile-info>button:nth-child(4){
+    background: red;
+}
+
